@@ -1,0 +1,42 @@
+{
+	"name": "Search photo bot",
+	"description": "Run telegram bot on heroku",
+	"repository": "https://github.com/winkxx/bot-M",
+	"keywords": ["telegram"],
+	"stack": "container",
+	"env": {
+			"Remote": {
+				"description": "上传目的地的rclone盘符",
+				"value": ""
+			},
+			"Aria2_secret": {
+				"description": "Aria2的密匙",
+				"value": ""
+			},
+			"Title": {
+				"description": "标题",
+				"value": ""
+			},
+			"Upload": {
+				"description": "上传文件夹名称，后面不需要加/",
+				"value": ""
+			},
+			"Telegram_user_id": {
+				"description": "使用者的TG id",
+				"value": ""
+			},
+			"Telegram_bot_api": {
+				"description": "Bot的API",
+				"value": ""
+			},
+			"Api_hash": {
+				"description": "Api_hash",
+				"value":""
+			},
+			"Api_id": {
+				"description": "Api_id",
+				"value":""
+			}
+		}
+	
+}
